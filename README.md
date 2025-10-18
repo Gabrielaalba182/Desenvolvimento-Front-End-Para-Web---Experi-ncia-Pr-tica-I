@@ -36,6 +36,14 @@
   </main>
   <footer><p>&copy; Instituto Esperança</p></footer>
 <body>
+  <html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cadastro — Instituto Esperança</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
   <header>
     <h1>Cadastro</h1>
     <nav>
@@ -61,6 +69,12 @@
     </form>
   </main>
   <footer><p>&copy; Instituto Esperança</p></footer>
+<!-- Static App Form Collection Script -->
+<script src="https://static.app/js/static-forms.js" type="text/javascript"></script>
+
+<script src="https://static.app/js/static.js" type="text/javascript"></script>
+</body>
+</html>
 
 
 
