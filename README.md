@@ -1,80 +1,46 @@
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header>
-    <h1>Instituto Esperança</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="cadastro.html">Cadastro</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h2>Quem somos</h2>
-    <p>Organização sem fins lucrativos dedicada a projetos sociais em educação, saúde e meio ambiente.</p>
-    <img src="https://dazzling-coyote.static.domains/images/voluntariado11.jpg">
-  </main>
-  <footer><p>&copy; <span id="year"></span> Instituto Esperança</p></footer>
-<body>
-  <header>
-    <h1>Projetos</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="cadastro.html">Cadastro</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h2>Voluntariado</h2>
-    <p>Conheça nossos projetos de alfabetização e meio ambiente.</p>
-     <img src="https://dazzling-coyote.static.domains/images/Trabalho%20volunt%C3%A1rio%201.jpg">
-   <img src="https://dazzling-coyote.static.domains/images/trabalho%20vonlunt%C3%A1rio%202.jpg"> 
-  </main>
-  <footer><p>&copy; Instituto Esperança</p></footer>
-<body>
-  <html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Cadastro — Instituto Esperança</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header>
-    <h1>Cadastro</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="cadastro.html">Cadastro</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <form id="cadastroForm">
-      <fieldset>
-        <legend>Dados Pessoais</legend>
-        <label for="nome">Nome completo:</label>
-        <input id="nome" name="nome" type="text" required>
-        <label for="email">E-mail:</label>
-        <input id="email" name="email" type="email" required>
-        <label for="cpf">CPF:</label>
-        <input id="cpf" name="cpf" type="text" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
-      </fieldset>
-      <button type="submit">Enviar</button>
-    </form>
-  </main>
-  <footer><p>&copy; Instituto Esperança</p></footer>
-<!-- Static App Form Collection Script -->
-<script src="https://static.app/js/static-forms.js" type="text/javascript"></script>
+ # 🌍 Instituto Esperança — Plataforma Web de Apoio a ONGs
 
-<script src="https://static.app/js/static.js" type="text/javascript"></script>
-</body>
-</html>
+## 🧭 Objetivo Geral
+Desenvolver uma **plataforma web completa e profissional** que permita a ONGs gerenciar suas atividades, divulgar projetos, captar recursos e engajar voluntários, aplicando, de forma integrada, todos os conceitos estudados nas quatro unidades da disciplina.
+
+---
+
+## 📁 Estrutura do Projeto
+
+├── index.html # Página inicial — sobre a organização e contato
+├── projetos.html # Página de projetos sociais e doações
+├── cadastro.html # Página de cadastro com formulário interativo
+│
+├── css/
+│ └── style.css # Estilos globais e responsivos
+│
+├── js/
+│ └── masks.js # Máscaras e validações nativas para CPF, telefone e CEP
+│
+└── images/
+└── hero.jpg # Imagem de capa (placeholder)
+
+---
+
+## ⚙️ Recursos e Técnicas Utilizadas
+
+- **HTML5 Semântico:** uso de `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`.
+- **Hierarquia de Títulos:** estruturada de forma lógica (`<h1>` até `<h3>`).
+- **Formulário Completo (HTML5):**
+  - Campos: Nome, Email, CPF, Telefone, Data de Nascimento, Endereço, CEP, Cidade e Estado.
+  - Validação nativa com `required`, `type`, `pattern` e `maxlength`.
+  - Máscaras de entrada via JavaScript (CPF, telefone e CEP).
+  - Agrupamento semântico com `<fieldset>` e `<legend>`.
+- **Acessibilidade:** uso de `aria-label`, `alt` e `label for`.
+- **Boas práticas de SEO e performance:** meta tags, lazy loading e imagens otimizadas.
+- **CSS puro:** design limpo e responsivo, com container centralizado e espaçamento uniforme.
+
+---
+
+## 🚀 Como Visualizar o Projeto
+
+Clicar no link: https://dazzling-coyote.static.domains/
+
 
 
 
